@@ -1,0 +1,9 @@
+.circleProgress {
+    top:200px;
+    left: 130px;
+    z-index:100;
+}
+
+.MuiCircularProgress-circle {
+    color: #f50057!important;
+}

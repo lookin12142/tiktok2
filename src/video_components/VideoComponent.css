@@ -1,0 +1,13 @@
+.videoComponent {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    border-bottom: 1px solid #e7e7e9;
+}
+
+.videoComponent__avatar {
+    width: 56px!important;
+    height:56px!important;
+    object-fit: contain!important;
+}
+

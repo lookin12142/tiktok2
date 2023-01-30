@@ -1,0 +1,137 @@
+video::-webkit-media-controls-timeline {
+    display: none;
+}
+
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+
+video::-webkit-media-controls-toggle-closed-captions-button {
+    display:none;
+}
+
+.postContent {
+    flex:1;
+    margin-left: 20px;
+    display:flex;
+    justify-content: space-around;
+    max-height: fit-content;
+
+}
+
+.postContent__container {
+    width:100%;
+}
+
+
+.postContent__header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.postContent__header > div {
+    display:flex;
+    
+}
+
+
+.postContent__button > button {
+    color:rgba(254, 44, 85, 1.0);
+    border: 1px solid rgba(254, 44, 85, 1.0);
+    background-color: white;
+    min-height: 28px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    min-width: 88px;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+
+.postContent__button> button:hover {
+   background-color: #fff3f5;
+}
+
+
+.postContent__user > h3 {
+    margin-right: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 25px;
+}
+
+
+.postContent__user > h4 {
+    margin-right: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 28px;
+    color:rgba(22, 24, 35, 1.0);
+}
+
+
+.contentBody__body {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+
+.contentBody__video {
+    flex: 0.5;
+}
+
+
+.contentVideo {
+    display: block;
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contentBody__button {
+    display:flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 20px;
+}
+
+
+.buttonIcon {
+    margin-bottom: 10px;
+}
+
+.buttonIcon > p {
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.buttonIcon__favorite {
+    color:rgb(22, 24, 35)!important;
+}
+
+
+.buttonIcon__favoriteSelected {
+    color:rgba(254, 44, 85, 1.0)!important;
+}
+
+.buttonIcon__click {
+    background-color: #f1f1f2!important;
+}
+
+.buttonIcon__click:hover {
+    background-color: rgb(65, 70, 80)!important;
+}

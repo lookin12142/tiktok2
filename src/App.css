@@ -1,0 +1,45 @@
+html {
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.videoPosts {
+    overflow-y: scroll;
+}
+
+.videoPosts::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+/* Track */
+.body__content::-webkit-scrollbar-track {
+    background: white; 
+    border-radius: 10px;
+}
+   
+/* Handle */
+.videoPosts::-webkit-scrollbar-thumb {
+    background-color: rgba(217,217,217,1);
+    border-radius: 10px;
+}
+
+.body__content {
+    display:flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100%;
+
+}
+
+.videoPosts{
+    flex:1;
+    padding: 30px 50px 0px 0px;
+    margin-left: 50px;
+    height: 85vh;
+}

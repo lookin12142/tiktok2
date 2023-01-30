@@ -1,0 +1,105 @@
+.uploadModal__form {
+    height: 100%;
+    margin-top: 10px;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.uploadForm__main {
+    height: 450px; 
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgba(248,248,248,1);
+    text-align: center;
+    color:rgb(221,222,223);
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+.uploadForm__open {
+    padding-top: 150px;
+}
+
+
+.uploadForm__video {
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+
+.uploadVideo__thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    z-index: -10!important;
+}
+
+.uploadForm__main:hover {
+    background-color: rgba(241, 241, 242, 1);
+}
+
+
+.uploadForm__open > h3 {
+    font-family: proxima-regular, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(22, 24, 35, 0.34);
+    margin-top: 29px;
+}
+
+.uploadOpen__icon {
+    margin-top: 100px!important;
+}
+
+
+.uploadForm__container > textarea{
+    width: 100%;
+    resize: none;
+    border: 1px solid rgba(227,227,228,1);
+    margin-top:5px;
+}
+
+.uploadForm__container > button {
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+    background-color: white;
+    color:rgb(254, 44, 85);
+    border-radius: 3px;
+    cursor: pointer;
+    float:right;
+}
+
+.uploadForm__container > button:hover {
+    background-color: #fe2c55;
+    color:white;
+}
+
+
+.uploadForm__close {
+    position: absolute!important;
+    left: 3px;
+    top: 5px;
+    padding:0!important;
+    transform: translate(-45%, -45%);
+    line-height: 0;
+    z-index: 4;
+    background-color: white!important;
+    
+}
+
+
+.uploadClose__button {
+    font-size: 1.5rem!important;
+    color: #ff4c3a!important;
+    
+}
+
+
+

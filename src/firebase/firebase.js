@@ -2,13 +2,13 @@ import firebase from 'firebase';
 import 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBh2DMw6t3gzIf9z2MpYWO9LfXb0cLYEn4",
-  authDomain: "tiktak-app-a905d.firebaseapp.com",
-  projectId: "tiktak-app-a905d",
-  storageBucket: "tiktak-app-a905d.appspot.com",
-  messagingSenderId: "113543138705",
-  appId: "1:113543138705:web:d9d1902b5c2c515d349e30",
-  measurementId: "G-GQ2H79E9WV"
+  apiKey: "AIzaSyBKLQu9dPwt7Lrn6YwI6aBoIjkVMkzNywA",
+  authDomain: "tiktak-tiktok-clone-simple.firebaseapp.com",
+  projectId: "tiktak-tiktok-clone-simple",
+  storageBucket: "tiktak-tiktok-clone-simple.appspot.com",
+  messagingSenderId: "851887958668",
+  appId: "1:851887958668:web:2e2417f924f6c64f24a9a9",
+  measurementId: "G-JCCW0HLKRR"
 };
 
   
